@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.transaction-title,
+.transaction-amount,
+.transaction-type {
+  margin: 0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
